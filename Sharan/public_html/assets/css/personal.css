@@ -1,6 +1,6 @@
 .support-btn {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   position: fixed;
   right: 2%;
   bottom: 35%;
@@ -17,14 +17,14 @@
 }
 
 .support-btn img {
-  width: 60px;
-  height: 60px;
-  margin-top: 5px;
+  width: 35px;
+  height: 35px;
 }
 
 .support-text {
   color: rgb(43, 39, 39);
   font-weight: 900;
+  font-size: smaller;
   transition: ease-in-out 0.3s;
 }
 
@@ -37,8 +37,8 @@
 }
 
 .WA-btn {
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   position: fixed;
   right: 2%;
   bottom: 50%;
@@ -59,8 +59,8 @@
 }
 
 .WA-btn img {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
 }
 
 /* form */
@@ -189,6 +189,7 @@ label {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-x: hidden;
 }
 
 .blogs-container {
@@ -412,6 +413,15 @@ label {
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+}
+
+#contact {
+  background: #2c3e50;
+  color: #fff;
+}
+
+.color {
+  color: #fff;
 }
 
 @media (max-width: 575.98px) {
