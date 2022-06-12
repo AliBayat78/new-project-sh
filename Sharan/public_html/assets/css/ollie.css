@@ -11640,7 +11640,7 @@ p {
   margin-left: 0;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 600px) {
   .blog-wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -12026,11 +12026,12 @@ pre .code {
   background: #f9bebe;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 600px) {
   .header {
     height: auto;
     padding: 50px 0;
   }
+
   .header .carousel {
     margin-top: 100px;
   }
