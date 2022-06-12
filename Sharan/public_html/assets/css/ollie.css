@@ -11628,7 +11628,7 @@ p {
 .blog-wrapper .txt-wrapper .blog-footer a {
   display: inline-block;
   margin: 0 10px;
-  color: #495057;
+  color: #000;
 }
 
 .blog-wrapper .txt-wrapper .blog-footer a i {
@@ -11894,7 +11894,7 @@ pre .code {
 
 .footer a,
 .footer p {
-  color: #343a40;
+  color: #fff;
   padding: 4px 0;
   display: inline-block;
   margin: 0;
@@ -11941,6 +11941,10 @@ pre .code {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
+}
+
+.blog-header {
+  height: 250px !important;
 }
 
 .header .overlay {
