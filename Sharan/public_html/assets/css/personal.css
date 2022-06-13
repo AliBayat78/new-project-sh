@@ -1,3 +1,12 @@
+.support {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
 .support-btn {
   width: 70px;
   height: 70px;
@@ -664,6 +673,19 @@ label {
     background-color: #fff;
     overflow-x: hidden;
   }
+
+  .carousel-title-container h1 {
+    font-size: 20px !important;
+  }
+
+  .carousel-title-container button {
+    font-size: 15px !important;
+  }
+
+  .blog h1 {
+    font-size: 25px !important;
+  }
+
   .support-btn {
     width: 80px;
     height: 80px;
@@ -737,7 +759,7 @@ label {
   }
 
   .blogs-container article {
-    width: 300px;
+    width: 240px !important;
   }
   .article img {
     width: 200px;
@@ -765,6 +787,24 @@ label {
 
   .comment-user {
     flex-direction: column;
+  }
+
+  .comment-info textarea {
+    width: 180px;
+    font-size: 9px;
+  }
+
+  .comments .btn-submit {
+    margin-top: 1rem;
+  }
+
+  .btn-submit {
+    font-size: 10px;
+  }
+
+  .comment-user div input {
+    width: 150px !important;
+    font-size: 8px;
   }
 
   .comment-info {
@@ -837,10 +877,25 @@ label {
     background-color: #fff;
     overflow-x: hidden;
   }
+
+  .carousel-title-container h1 {
+    font-size: 30px !important;
+  }
+
+  .blog h1 {
+    font-size: 30px;
+  }
+
+  .infos div h6,
+  .infos div h5,
+  .infos div p {
+    font-size: 10px;
+  }
+
   .support-btn {
     width: 80px;
     height: 80px;
-    bottom: 2%;
+    bottom: 5%;
   }
   .support-btn img {
     width: 45px;
@@ -850,7 +905,7 @@ label {
     width: 80px;
     height: 80px;
     left: 0;
-    bottom: 2%;
+    bottom: 5%;
   }
   .WA-btn img {
     width: 45px;
@@ -914,8 +969,12 @@ label {
     width: 100%;
   }
 
+  .comments .btn-submit {
+    margin-top: 1rem;
+  }
+
   .comments {
-    width: 100%;
+    width: 90%;
     font-size: small;
   }
   .comments h2 {
@@ -924,6 +983,10 @@ label {
 
   .comment-user {
     flex-direction: column;
+  }
+
+  .comment-user div input {
+    width: 300px;
   }
 
   .comment-info {
@@ -999,17 +1062,19 @@ label {
   .support-btn {
     width: 80px;
     height: 80px;
-    bottom: 2%;
-  }
-  .support-btn img {
-    width: 45px;
-    height: 45px;
+    bottom: 50%;
+    transform: translateY(50%);
   }
   .WA-btn {
     width: 80px;
     height: 80px;
-    left: 0;
-    bottom: 2%;
+    right: 2%;
+    bottom: 30%;
+    transform: translateY(30%);
+  }
+  .support-btn img {
+    width: 40px;
+    height: 40px;
   }
   .WA-btn img {
     width: 45px;
@@ -1075,7 +1140,7 @@ label {
   }
 
   .comments {
-    width: 100%;
+    width: 90%;
     font-size: small;
   }
   .comments h2 {
@@ -1143,6 +1208,10 @@ label {
     left: 28px;
     bottom: -6px;
   }
+
+  .comments .btn-submit {
+    margin-top: 1rem;
+  }
 }
 
 @media (min-width: 820px) {
@@ -1157,7 +1226,8 @@ label {
     overflow-x: hidden;
   }
   .blogs-container {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .blogs-container article {
@@ -1179,7 +1249,7 @@ label {
   .support-btn {
     width: 80px;
     height: 80px;
-    bottom: 2%;
+    bottom: 50%;
   }
   .support-btn img {
     width: 40px;
@@ -1188,8 +1258,8 @@ label {
   .WA-btn {
     width: 80px;
     height: 80px;
-    left: 0;
-    bottom: 2%;
+    right: 2%;
+    bottom: 40%;
   }
   .WA-btn img {
     width: 40px;
@@ -1225,7 +1295,7 @@ label {
   }
 
   .comments {
-    width: 100%;
+    width: 90%;
     font-size: small;
   }
 
@@ -1290,6 +1360,10 @@ label {
     left: 28px;
     bottom: -6px;
   }
+
+  .comments .btn-submit {
+    margin-top: 1rem;
+  }
 }
 
 @media (min-width: 900px) {
@@ -1304,7 +1378,16 @@ label {
     overflow-x: hidden;
   }
   .blogs-container {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .blog-container img {
+    width: 600px;
+  }
+
+  .blog-container div p {
+    font-size: 20px;
   }
 
   .blogs-container article {
@@ -1323,18 +1406,24 @@ label {
     justify-content: space-between;
   }
 
+  .repair-input {
+    width: 200px;
+  }
+
   .textarea {
     margin-right: 2rem;
   }
 
   .support-btn {
-    bottom: 2%;
+    bottom: 50%;
+    transform: translateY(50%);
   }
   .WA-btn {
     width: 80px;
     height: 80px;
-    left: 0;
-    bottom: 2%;
+    right: 2%;
+    bottom: 30%;
+    transform: translateY(30%);
   }
   .WA-btn img {
     width: 40px;
@@ -1348,9 +1437,12 @@ label {
     text-align: center;
   }
 
+  .user-comment {
+    font-size: 24px;
+  }
+
   .comments {
-    width: 100%;
-    font-size: small;
+    width: 90%;
   }
 
   .comments h2 {
@@ -1359,6 +1451,14 @@ label {
 
   .comment-user {
     flex-direction: column;
+  }
+
+  .comment-user div input {
+    width: 400px;
+  }
+
+  .comments .btn-submit {
+    margin-top: 1rem;
   }
 }
 
@@ -1374,12 +1474,22 @@ label {
     overflow-x: hidden;
   }
   .blogs-container {
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .blogs-container article {
     width: 400px;
   }
+
+  .blog-container img {
+    width: 600px;
+  }
+
+  .blog-container div p {
+    font-size: 20px;
+  }
+
   .article img {
     width: 300px;
     border-radius: 10px;
@@ -1387,13 +1497,15 @@ label {
   }
 
   .support-btn {
-    bottom: 2%;
+    bottom: 50%;
+    transform: translateY(50%);
   }
   .WA-btn {
     width: 80px;
     height: 80px;
-    left: 0;
-    bottom: 2%;
+    right: 2%;
+    bottom: 30%;
+    transform: translateY(30%);
   }
   .WA-btn img {
     width: 40px;
@@ -1407,8 +1519,12 @@ label {
     text-align: center;
   }
 
+  .user-comment {
+    font-size: 24px;
+  }
+
   .comments {
-    width: 100%;
+    width: 90%;
     font-size: small;
   }
 
@@ -1418,5 +1534,13 @@ label {
 
   .comment-user {
     flex-direction: column;
+  }
+
+  .comment-user div input {
+    width: 400px;
+  }
+
+  .comments .btn-submit {
+    margin-top: 1rem;
   }
 }
